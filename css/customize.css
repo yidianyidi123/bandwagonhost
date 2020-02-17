@@ -1,0 +1,31 @@
+.carousel-b-20{bottom:20%}
+.carousel-t-30{top:30%}
+.ninteen{font-size:2.6rem;color:#ff6f7c}
+.kuai{font-size:2.6rem;color:#6dff8d}
+.quote{padding:.25rem 1.25rem .25rem 1.25rem;border-left:3px solid #ccc}
+.bg-ico{color:#ff892b}
+.anchor{position:relative;top:-70px;display:block}
+#coupon{color:#e91e63}
+.bgbackground{background-image:url("b2.png")/*tpa=http://bwg.biaoniu.net/bwg/image/b2.png*/;position:relative;background-size:cover;height:277px;display:-ms-flex;display:-webkit-flex;display:flex;justify-content:center;align-items:center}
+.bgbackground::before{position:absolute;content:'';height:100%;width:100%;left:0;top:0;background:rgba(30,136,229,.87)}
+.alert-warning{position:relative}
+.alert-warning:hover .giv2-image{right:10px}
+.lookCodeBtn{position:relative;width:160px;cursor:pointer;font-size:14px;color:#fff;background:#ee6762;border:none;border-radius:6px;margin-left:15px;-webkit-transition:all .4s ease-in-out;-moz-transition:all .4s ease-in-out;-ms-transition:all .4s ease-in-out;-o-transition:all .4s ease-in-out;transition:all .4s ease-in-out;text-decoration:none;padding:10px}
+.lookCodeBtn:hover{background-color:#ee6762}
+.giv2-text{position:relative;z-index:7}
+.giv2-code{position:absolute;background-color:#fbd6d5;color:#000;border:dashed 1px #ca5b5b;padding:11px 3px 11px 0;right:0;top:0;border-radius:2px;letter-spacing:2px;z-index:4;height:100%;min-width:33px}
+.giv2-cover{background-color:#ee6762;position:absolute;width:75%;top:0;right:35px;z-index:5;height:100%}
+.giv2-image{background-image:url("coupon-cover.png")/*tpa=http://bwg.biaoniu.net/bwg/image/coupon-cover.png*/;width:50%;position:absolute;z-index:6;top:0;right:0;background-size:cover;background-repeat:no-repeat;background-position:center right;height:100%;-webkit-transition:right .3s;-moz-transition:right .3s;transition:right .3s}
+#copyinput{position:absolute;top:-1000px}
+.modal{display:block;background-color:rgba(0,0,0,.6)}
+.moadl-content{width:400px;margin-left:auto;margin-right:auto;margin-top:80px;border-radius:4px;padding-bottom:15px;background-color:#fff}
+.modal-head{padding-top:10px;text-align:right;padding-left:15px;padding-right:15px}
+.modal-head .fa-close{color:#999;font-size:22px;cursor:pointer}
+.modal-body{text-align:center}
+.modal-body .code-hint{line-height:40px;background:#ecfaff;color:#666;position:relative;border:1px solid #b6edff}
+.modal-body .code-hint::before{border-left:14px solid transparent;border-right:14px solid transparent;border-top:14px solid;border-top-color:inherit;bottom:-14px;margin-left:-14px;content:'';left:87.1%;position:absolute}
+.modal-body .code-hint::after{border-left:13px solid transparent;border-right:13px solid transparent;border-top:13px solid #ecfaff;bottom:-13px;content:'';left:87.1%;margin-left:-13px;position:absolute}
+.modal-body .code-text{text-align:right}
+.modal-body .code-text span{display:inline-block}
+.modal-body .code-text #code{color:#dc3545;font-weight:600}
+.modal-body .code-text #copybtn{height:45px;color:#fff;cursor:pointer;background:#007bff;border-radius:4px;line-height:45px;padding:0 20px;margin-left:30px}
